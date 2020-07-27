@@ -1,0 +1,159 @@
+[debug] [2020-07-27T16:40:00.835Z] ----------------------------------------------------------------------
+[debug] [2020-07-27T16:40:00.839Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-07-27T16:40:00.839Z] CLI Version:   8.5.0
+[debug] [2020-07-27T16:40:00.839Z] Platform:      win32
+[debug] [2020-07-27T16:40:00.840Z] Node Version:  v12.16.2
+[debug] [2020-07-27T16:40:00.844Z] Time:          Mon Jul 27 2020 22:10:00 GMT+0530 (India Standard Time)
+[debug] [2020-07-27T16:40:00.845Z] ----------------------------------------------------------------------
+[debug] [2020-07-27T16:40:00.845Z] 
+[debug] [2020-07-27T16:40:00.869Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-27T16:40:00.871Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hi\Documents\spring boot project\Personal-Portfolio-Angular-Updated-master
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using mycv-a7a54. 
+[debug] [2020-07-27T16:40:08.670Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mycv-a7a54  
+ 
+[debug] [2020-07-27T16:40:13.658Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Jul 2020 16:40:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-07-27T16:40:42.045Z] Error: ENOENT: no such file or directory, open 'C:\Users\hi\Documents\spring boot project\Personal-Portfolio-Angular-Updated-master\dist1\index.html\404.html'
+    at Object.openSync (fs.js:458:3)
+    at Object.writeFileSync (fs.js:1283:35)
+    at Object.createFileSync (C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:154:8)
+    at C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:173:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-07-27T16:41:04.109Z] ----------------------------------------------------------------------
+[debug] [2020-07-27T16:41:04.112Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-07-27T16:41:04.113Z] CLI Version:   8.5.0
+[debug] [2020-07-27T16:41:04.113Z] Platform:      win32
+[debug] [2020-07-27T16:41:04.113Z] Node Version:  v12.16.2
+[debug] [2020-07-27T16:41:04.118Z] Time:          Mon Jul 27 2020 22:11:04 GMT+0530 (India Standard Time)
+[debug] [2020-07-27T16:41:04.118Z] ----------------------------------------------------------------------
+[debug] [2020-07-27T16:41:04.119Z] 
+[debug] [2020-07-27T16:41:04.143Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-27T16:41:04.144Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hi\Documents\spring boot project\Personal-Portfolio-Angular-Updated-master
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using mycv-a7a54. 
+[debug] [2020-07-27T16:41:25.902Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mycv-a7a54  
+ 
+[debug] [2020-07-27T16:41:27.108Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Jul 2020 16:41:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-07-27T16:42:06.015Z] Error: ENOENT: no such file or directory, open 'C:\Users\hi\Documents\spring boot project\Personal-Portfolio-Angular-Updated-master\dist1\index.html\404.html'
+    at Object.openSync (fs.js:458:3)
+    at Object.writeFileSync (fs.js:1283:35)
+    at Object.createFileSync (C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:154:8)
+    at C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:173:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-07-27T16:42:22.833Z] ----------------------------------------------------------------------
+[debug] [2020-07-27T16:42:22.836Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-07-27T16:42:22.837Z] CLI Version:   8.5.0
+[debug] [2020-07-27T16:42:22.837Z] Platform:      win32
+[debug] [2020-07-27T16:42:22.837Z] Node Version:  v12.16.2
+[debug] [2020-07-27T16:42:22.843Z] Time:          Mon Jul 27 2020 22:12:22 GMT+0530 (India Standard Time)
+[debug] [2020-07-27T16:42:22.843Z] ----------------------------------------------------------------------
+[debug] [2020-07-27T16:42:22.843Z] 
+[debug] [2020-07-27T16:42:22.870Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-27T16:42:22.872Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hi\Documents\spring boot project\Personal-Portfolio-Angular-Updated-master
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using mycv-a7a54. 
+[debug] [2020-07-27T16:42:32.626Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/mycv-a7a54  
+ 
+[debug] [2020-07-27T16:42:33.665Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 27 Jul 2020 16:42:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-07-27T16:42:53.808Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-07-27T16:42:54.374Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Mon, 27 Jul 2020 15:59:09 GMT","expires":"Mon, 27 Jul 2020 16:49:09 GMT","last-modified":"Fri, 24 Jul 2020 05:16:40 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"2625","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-07-27T16:42:55.060Z] Error: ENOENT: no such file or directory, open 'C:\Users\hi\Documents\spring boot project\Personal-Portfolio-Angular-Updated-master\dist1\index.html\index.html'
+    at Object.openSync (fs.js:458:3)
+    at Object.writeFileSync (fs.js:1283:35)
+    at Object.createFileSync (C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:154:8)
+    at C:\Users\hi\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:173:18
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
